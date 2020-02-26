@@ -15,7 +15,7 @@ export default class Track extends Component{
 
     render(){
 
-        const {artworkUrl60, artistName, trackName, collectionName, primaryGenreName, previewUrl} = this.state.track;
+        const {artworkUrl60, artistName, trackName, collectionName, primaryGenreName} = this.state.track;
         const {addStyle} = this.props;
         const addClass = addStyle ? 'track-wrapper add-style' : 'track-wrapper';
 

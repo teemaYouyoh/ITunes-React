@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
-import { render } from 'react-dom';
 
 import Accordion from '../Accordion/Accordion';
 import ITunesService from '../../services/ITunesService';
-
 
 import './track-list.css';
 
@@ -31,7 +29,6 @@ export default class UsersList extends Component{
             tracks : tracks.results,
             error : false,
         });
-
     }
 
     onError = ()=>[
