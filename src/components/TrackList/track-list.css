@@ -1,0 +1,24 @@
+.track-list{
+    width: 100%;
+}
+
+.track-search{
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 24px;
+}
+
+.navigation .navigation-title{
+    min-width: 200px;
+    text-align: left;
+}
+
+.add-style{
+    background-color: #CCDFF0 !important;
+  }
